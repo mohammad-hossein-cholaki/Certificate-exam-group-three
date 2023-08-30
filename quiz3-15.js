@@ -11,6 +11,19 @@ validationPassword("abc!@dfgd") => Your password is not valid
 
 function validationPassword(password) {
   // Your code goes below this line
+  if(password.length>8){
+    if(password.indexOf(' ')==-1 && password.indexOf('@')==-1 && password.indexOf('#')==-1 && password.indexOf('$')==-1 ){
+      
+      console.log('Your password is valid')
+
+    }else{
+      console.log('Your password is not valid')
+
+    }
+  }else{
+    console.log('Your password is not valid')
+
+  }
   // Your code goes above this line
 }
 

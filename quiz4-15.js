@@ -15,6 +15,7 @@ You can expect negative numbers too.
 
 function numberSplit(number) {
   // Your code goes below this line
+  
   // Your code goes above this line
 }
 

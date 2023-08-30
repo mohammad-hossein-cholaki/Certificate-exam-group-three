@@ -28,6 +28,12 @@ A single printed page requires each color once, so printing is not possible if a
 
 function inkLevels(obj) {
   // Your code goes below this line
+  let maxPage=Object.values(obj)
+  let max=Math.max(...maxPage)
+  let findValue=obj.filter((value)=> value=max)
+  return findValue
+
+
   // Your code goes above this line
 }
 

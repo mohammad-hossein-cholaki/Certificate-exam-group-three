@@ -10,6 +10,11 @@ findLargestAndSmallestNums([0.4321, 0.7634, 0.652, 1.324, 9.32, 2.5423, 6.4314, 
 
 function findLargestAndSmallestNums(array) {
   // Your code goes below this line
+
+let min=Math.min(...array)
+let max=Math.max(...array)
+return [max, min]
+
   // Your code goes above this line
 }
 

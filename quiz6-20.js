@@ -13,6 +13,14 @@ filterArray([9, 9, 9, 6],[-15,"90"]) ➞ Inputs are not valid
 
 function filterArray(arr1, arr2) {
   // Your code goes below this line
+  const newArr1=arr1.filter((item)=> typeof(item) !=="string" && item>-1)
+  const newArr2=arr2.filter((item)=> typeof(item) !=="string" && item>-1)
+
+  return newArr1.concat(newArr2)
+
+
+
+
   // Your code goes above this line
 }
 
